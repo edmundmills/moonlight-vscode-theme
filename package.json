@@ -1,30 +1,18 @@
 {
-    "name": "tokyo-night",
-    "displayName": "Tokyo Night",
+    "name": "moonlight",
+    "displayName": "Moonlight",
     "description": "A clean, dark (and now light) Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
-    "version": "0.7.9",
-    "publisher": "enkia",
+    "version": "0.0.1",
+    "publisher": "edmundmills",
     "license": "MIT",
     "keywords": [
         "theme",
-        "contrast",
-        "dark",
-        "light",
-        "tokyo",
-        "clean"
+        "dark"
     ],
-    "icon": "icon.png",
-    "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
+    "homepage": "https://github.com/edmundmills/moonlight-vscode-theme",
     "repository": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme",
+        "url": "https://github.com/edmundmills/moonlight-vscode-theme",
         "type": "git"
-    },
-    "bugs": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme/issues"
-    },
-    "galleryBanner": {
-        "color": "#1f2335",
-        "theme": "dark"
     },
     "engines": {
         "vscode": "^1.17.0"
@@ -36,19 +24,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Tokyo Night",
+                "label": "Moonlight",
                 "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Storm",
-                "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-storm-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Light",
-                "uiTheme": "vs",
-                "path": "./themes/tokyo-night-light-color-theme.json"
+                "path": "./themes/moonlight-theme.json"
             }
         ]
     },
